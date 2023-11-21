@@ -1,5 +1,4 @@
 
-
 name_of_unit = "hours"
 calculation_to_units = 24
 
@@ -11,7 +10,8 @@ def days_to_units(num_of_days):
 def validate_and_execute():
     try:
         user_input_number = int(num_of_days_element)
-        #conversion obnly for positive numbers
+
+        # conversion only for positive numbers
         if user_input_number > 0:
             calculated_value = days_to_units(user_input_number)
             print(calculated_value)
