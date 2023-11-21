@@ -1,2 +1,2 @@
 # python-tutorial
-learning python
+learning python 5h tutorial Techworld with Nana
